@@ -92,7 +92,7 @@ img {
 }
 
 .lettre {
-    background: #eff;
+    background: #fff0f5;
     height: 95%;
     width: 90%;
     margin: .5rem auto;
@@ -102,6 +102,24 @@ img {
     text-align: center;
     padding-top: 2rem;
     animation: lettre 1s forwards 4s;
+}
+
+.card {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff0f5;
+    color: #d10056;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-family: 'Pacifico', cursive;
 }
 
 @keyframes openenv {
@@ -198,6 +216,11 @@ img {
 
 .lettre div {
     animation: glow 1s infinite alternate;
+}
+
+iframe {
+    position: absolute;
+    left: -9999px;
 }
 
 /* Bong bóng trái tim */

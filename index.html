@@ -8,17 +8,27 @@
 </head>
 
 <body>
+    <iframe id="music" width="0" height="0"
+        src="https://www.youtube.com/embed/CNBbfuxSnn0?autoplay=1&loop=1&playlist=CNBbfuxSnn0" frameborder="0"
+        allow="autoplay">
+    </iframe>
+
     <div class="wrapper">
         <div class="env"></div>
         <img src="./heart.png" alt="">
         <div class="lettre">
             <div>
-                Chúc vợ iu <br>
+                Lê Phương Uyên <br>
                 VALENTINE <br>
-                Vui vẻ 💖
+                Vui vẻ 🙆‍♂️💕
             </div>
         </div>
         <div class="front"></div>
+    </div>
+
+    <div class="card" id="card">
+        <h2>💖</h2>
+        <p>Chúc em có một ngày Valentine thật vui vẻ,<br>tràn đầy yêu thương và hạnh phúc!<br> Anh yêu em 😘🥑</p>
     </div>
 
     <!-- Bong bóng trái tim -->
@@ -37,6 +47,13 @@
 
         setInterval(createHeart, 500);
     </script>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById("card").style.opacity = "1";
+        }, 8000); // Hiển thị thiệp sau 4s khi thư mở
+    </script>
+
 
 </body>
 
